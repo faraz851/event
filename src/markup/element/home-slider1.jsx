@@ -6,33 +6,15 @@ import '../../assets/css/slider.css';
 
 const slides = [
     {
-        title: 'Making Your Business Idea',
-        description: 'Our company is one of the world’s leading management consulting firms. Get in touch here asap.',
+        title: 'Welcome To Pixie Parties & Face Painting!',
+        description: `Pixie Parties and Face Painting is focused on providing affordable, high-quality entertainment for your child's party or event!!`,
         btnLearn: "-- Learn More --",
-        finan: "Finan",
+        finan: "Pixie Parties & Face painting ",
         dox: "dox",
         btnService: "-- Our Services --",
-        image: require('./../../assets/images/main-slider/1.jpg'),
+        image: require('./../../assets/images/main-slider/header.jpg'),
     },
-    {
-        title: 'Making Your Business Idea',
-        description: 'Our company is one of the world’s leading management consulting firms. Get in touch here asap.',
-        btnLearn: "-- Learn More --",
-        finan: "Finan",
-        dox: "dox",
-        btnService: "-- Our Services --",
-        image: require('./../../assets/images/main-slider/1.jpg'),
-    },
-    {
-        title: 'Making Your Business Idea',
-        description: 'Our company is one of the world’s leading management consulting firms. Get in touch here asap.',
-        btnLearn: "-- Learn More --",
-        finan: "Finan",
-        dox: "dox",
-        btnService: "-- Our Services --",
-        image: require('./../../assets/images/main-slider/1.jpg'),
-    },
-
+   
 ];
 
 
@@ -47,11 +29,9 @@ class HomeSlider1 extends Component {
                         <div key={index} className="slider-content" style={{ background: `url('${slide.image}') no-repeat center center` }}>
                             <div className="inner">
                                 <h1>{slide.title}</h1>
-                                <h2>{slide.finan}<span>{slide.dox} </span></h2>
+                                <h2>{slide.finan}</h2>
                                 <div class="text">{slide.description}</div>
-                                <div class="btn-box">
-                                    <Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">{slide.btnService}</span>
-                                    </Link><Link to={'/#'} class="theme-btn btn-style-two"><span class="btn-title">{slide.btnLearn}</span></Link></div>
+                                
                             </div>
                         </div>)}
                 </Slider>
