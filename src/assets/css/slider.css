@@ -138,6 +138,7 @@
 
 .previousButton,
 .nextButton {
+	display: none;
 	position   : absolute;
 	top        : 50%;
 	transform  : translateY(-50%);
@@ -206,7 +207,7 @@
 
 .slider-content .inner h2 {
 	display          : block;
-	font-size        : 180px;
+	font-size        : 120px;
 	line-height      : 1.15em;
 	color            : #ffffff;
 	font-weight      : 700;
