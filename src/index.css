@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Ubuntu&display=swap');
+
+.page-item.active .page-link {
+  z-index: 1 !important;
+  color: #fff !important;
+  background-color: #e83e8c !important;
+  border-color: #e83e8c !important;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #e83e8c !important;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}

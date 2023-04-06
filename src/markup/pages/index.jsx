@@ -4,7 +4,7 @@ import { Nav, Tab, } from 'react-bootstrap';
 import Header from '../layout/header';
 import Footer from '../layout/footer';
 import HomeSlider1 from './../element/home-slider1';
-
+import Gallery from '../layout/gallery';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
@@ -62,7 +62,7 @@ class Index extends Component {
 
 
                 {/* <!-- About Section --> */}
-                <section class="about-section">
+                {/* <section class="about-section">
                     <div class="auto-container">
                         <div class="row align-items-center">
                             <div class="col-lg-6">
@@ -103,10 +103,10 @@ class Index extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 {/* <!-- Services Section --> */}
-                <section class="services-section">
+                {/* <section class="services-section">
                     <div class="auto-container">
                         <div class="wrapper-box">
                             <div class="left-column">
@@ -131,19 +131,19 @@ class Index extends Component {
                                         <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="right-column">
-                                {/* <!-- Fact Counter --> */}
-                                <div class="fact-counter">
+                            </div> */}
+                {/* <div class="right-column"> */}
+                {/* <!-- Fact Counter --> */}
+                {/* <div class="fact-counter">
                                     <div class="border-box">
                                         <div class="border_top"></div>
                                         <div class="border_bottom"></div>
                                         <div class="border_middile"></div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row"> */}
 
-                                        {/* <!--Column--> */}
-                                        <div class="column counter-column col-md-6">
+                {/* <!--Column--> */}
+                {/* <div class="column counter-column col-md-6">
                                             <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                                 <div class="content">
                                                     <div class="icon"><img src={require('../../assets/images/icons/icon-6.png')} alt="" /></div>
@@ -166,10 +166,10 @@ class Index extends Component {
                                                     <div class="counter-title">Business Monitoring</div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
 
-                                        {/* <!--Column--> */}
-                                        <div class="column counter-column col-md-6">
+                {/* <!--Column--> */}
+                {/* <div class="column counter-column col-md-6">
                                             <div class="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                                                 <div class="content">
                                                     <div class="icon"><img src={require('../../assets/images/icons/icon-7.png')} alt="" /></div>
@@ -192,10 +192,10 @@ class Index extends Component {
                                                     <div class="counter-title">Business Growth</div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
 
-                                        {/* <!--Column--> */}
-                                        <div class="column counter-column col-md-6">
+                {/* <!--Column--> */}
+                {/* <div class="column counter-column col-md-6">
                                             <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                                                 <div class="content">
                                                     <div class="icon"><img src={require('../../assets/images/icons/icon-8.png')} alt="" /></div>
@@ -218,10 +218,10 @@ class Index extends Component {
                                                     <div class="counter-title">Financial Plan</div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
 
-                                        {/* <!--Column--> */}
-                                        <div class="column counter-column col-md-6">
+                {/* <!--Column--> */}
+                {/* <div class="column counter-column col-md-6">
                                             <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
                                                 <div class="content">
                                                     <div class="icon"><img src={require('../../assets/images/icons/icon-9.png')} alt="" /></div>
@@ -244,10 +244,10 @@ class Index extends Component {
                                                     <div class="counter-title">Finance Consulting</div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
 
-                                        {/* <!--Column--> */}
-                                        <div class="column counter-column col-md-6">
+                {/* <!--Column--> */}
+                {/* <div class="column counter-column col-md-6">
                                             <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                                                 <div class="content">
                                                     <div class="icon"><img src={require('../../assets/images/icons/icon-10.png')} alt="" /></div>
@@ -270,10 +270,10 @@ class Index extends Component {
                                                     <div class="counter-title">Data Analysis</div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
 
-                                        {/* <!--Column--> */}
-                                        <div class="column counter-column col-md-6">
+                {/* <!--Column--> */}
+                {/* <div class="column counter-column col-md-6">
                                             <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
                                                 <div class="content">
                                                     <div class="icon"><img src={require('../../assets/images/icons/icon-11.png')} alt="" /></div>
@@ -312,21 +312,21 @@ class Index extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
 
 
                 {/* <!-- Gallery Section --> */}
-                <PortfolioFilter1 />
+                {/* <PortfolioFilter1 /> */}
 
 
                 {/* <!-- Video Section --> */}
-                <VideoPopup1 />
+                {/* <VideoPopup1 /> */}
 
 
 
                 {/* <!-- Why Choose Us Section --> */}
-                <section class="why-chooseus-section">
+                {/* <section class="why-chooseus-section">
                     <div class="auto-container">
                         <div class="row align-items-center">
                             <div class="col-lg-6">
@@ -381,18 +381,18 @@ class Index extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 {/* <!-- Team Section --> */}
-                <section class="team-section" style={{ backgroundImage: "url(" + teambg1 + ")" }}>
+                {/* <section class="team-section" style={{ backgroundImage: "url(" + teambg1 + ")" }}>
                     <div class="auto-container">
                         <div class="sec-title text-center">
                             <div class="sub-title">Our Team</div>
                             <h2>Leadership Team</h2>
                         </div>
-                        <div class="row">
-                            {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                        <div class="row"> */}
+                {/* <!-- Team Block One --> */}
+                {/* <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                                 <div class="inner-box">
                                     <div class="image"><img src={require('../../assets/images/resource/team-1.jpg')} alt="" /></div>
                                     <div class="content">
@@ -401,9 +401,9 @@ class Index extends Component {
                                         <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                                     </div>
                                 </div>
-                            </div>
-                            {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                            </div> */}
+                {/* <!-- Team Block One --> */}
+                {/* <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                                 <div class="inner-box">
                                     <div class="image"><img src={require('../../assets/images/resource/team-2.jpg')} alt="" /></div>
                                     <div class="content">
@@ -412,9 +412,9 @@ class Index extends Component {
                                         <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                                     </div>
                                 </div>
-                            </div>
-                            {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                            </div> */}
+                {/* <!-- Team Block One --> */}
+                {/* <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                                 <div class="inner-box">
                                     <div class="image"><img src={require('../../assets/images/resource/team-1.jpg')} alt="" /></div>
                                     <div class="content">
@@ -426,19 +426,19 @@ class Index extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 {/* <!-- Contact Section --> */}
-                <section class="contact-section">
+                {/* <section class="contact-section">
                     <div class="auto-container">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="sec-title">
                                     <div class="sub-title">Write Here</div>
                                     <h2>Get In Touch</h2>
-                                </div>
-                                {/* <!-- Contact Form--> */}
-                                <div class="contact-form">
+                                </div> */}
+                {/* <!-- Contact Form--> */}
+                {/* <div class="contact-form">
                                     <form method="post" action="http://azim.commonsupport.com/Finandox/sendemail.php" id="contact-form">
                                         <div class="row clearfix">
                                             <div class="col-md-12 form-group">
@@ -521,20 +521,20 @@ class Index extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
 
                 {/* <!-- News Section --> */}
-                <section class="news-section">
+                {/* <section class="news-section">
                     <div class="sec-bg" style={{ backgroundImage: "url(" + newsbg1 + ")" }}></div>
                     <div class="auto-container">
                         <div class="sec-title text-center light">
                             <div class="sub-title">News</div>
                             <h2>News From Resource</h2>
                         </div>
-                        <div class="row">
-                            {/* <!-- News Block One --> */}
-                            <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                        <div class="row"> */}
+                {/* <!-- News Block One --> */}
+                {/* <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                                 <div class="inner-box">
                                     <div class="image"><Link to={'/#'}><img src={require('../../assets/images/resource/news-1.jpg')} alt="" /></Link></div>
                                     <div class="lower-content">
@@ -547,9 +547,9 @@ class Index extends Component {
                                         <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore</div>
                                     </div>
                                 </div>
-                            </div>
-                            {/* <!-- News Block One --> */}
-                            <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                            </div> */}
+                {/* <!-- News Block One --> */}
+                {/* <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                                 <div class="inner-box">
                                     <div class="image"><Link to={'/#'}><img src={require('../../assets/images/resource/news-2.jpg')} alt="" /></Link></div>
                                     <div class="lower-content">
@@ -562,9 +562,9 @@ class Index extends Component {
                                         <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore</div>
                                     </div>
                                 </div>
-                            </div>
-                            {/* <!-- News Block One --> */}
-                            <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                            </div> */}
+                {/* <!-- News Block One --> */}
+                {/* <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                                 <div class="inner-box">
                                     <div class="image"><Link to={'/#'}><img src={require('../../assets/images/resource/news-3.jpg')} alt="" /></Link></div>
                                     <div class="lower-content">
@@ -580,10 +580,10 @@ class Index extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 {/* <!-- Award Section --> */}
-                <section class="award-section pt-0">
+                {/* <section class="award-section pt-0">
                     <div class="year">2020</div>
                     <div class="auto-container">
                         <div class="sec-title text-center">
@@ -614,13 +614,13 @@ class Index extends Component {
                     </div>
                 </section>
 
+ */}
 
 
 
 
 
-
-
+                <Gallery />
 
                 <Footer />
             </>
