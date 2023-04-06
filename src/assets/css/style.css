@@ -840,6 +840,7 @@ img {
 
 .main-header .header-upper {
 	position: relative;
+	margin-top: 18px;
 }
 
 .main-header .header-upper .inner-container {
