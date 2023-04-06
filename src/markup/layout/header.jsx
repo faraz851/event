@@ -129,16 +129,6 @@ class Header extends Component {
             }
           >
             <div class="auto-container clearfix">
-              <div class="logo pull-left">
-                <Link to={"/#"} title="">
-                  <img
-                    src={require("../../assets/images/sticky-logo.png")}
-                    alt=""
-                    title=""
-                  />
-                </Link>
-              </div>
-
               <div class="pull-right">
                 <nav class="main-menu clearfix">
                   <Menu />
