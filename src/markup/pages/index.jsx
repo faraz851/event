@@ -620,7 +620,7 @@ class Index extends Component {
 
 
 
-                {/* <Gallery /> */}
+                <Gallery />
 
                 <Footer />
             </>

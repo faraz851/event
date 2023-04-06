@@ -135,7 +135,7 @@ import Cartoon from '../../assets/images/foot.png';
 const Footer = () => {
     return (
         <>
-            <div className='container my-5 pt-5'>
+            <div className='container mt-2 mb-5 pt-5'>
                 <h4 className='paint'>Welcome To Pixie Parties & Face Painting!</h4>
                 <h6 className='anims bids'>Pixie Parties and Face Painting is focused on providing affordable, high-quality entertainment for your child's party or event!!</h6>
                 <p className='anims'>We specialize in face painting & balloon twisting. Parties at home, hired venues, parks & corporate events!</p>
